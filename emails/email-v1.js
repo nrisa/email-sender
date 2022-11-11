@@ -23,7 +23,7 @@ route.post('/text-mail', (req, res) => {
             return console.log('message error : ', error)
         }
 
-        res.status(200).send({message: "Mail Send Succcess!", message_id: info.messageId})
+        res.status(200).send({message: "Mail v1 Send Succcess!", message_id: info.messageId})
     })
 })
 
